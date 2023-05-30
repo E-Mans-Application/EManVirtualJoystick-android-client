@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar"/>
+
+    <style name="AppTheme.HiddenActionBar" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/ActionBar.Hidden</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/ActionBar.Hidden</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="ActionBar.Hidden" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@null</item>
+        <!-- Support library compatibility -->
+        <item name="background">@null</item>
+    </style>
+</resources>

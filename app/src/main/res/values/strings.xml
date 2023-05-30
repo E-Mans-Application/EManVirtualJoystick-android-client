@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EManVirtualJoystick</string>
+
+    <string name="button_select" translatable="false">SELECT</string>
+    <string name="button_start" translatable="false">START</string>
+
+    <string name="error">Error</string>
+    <string name="settings">Server settings</string>
+
+    <string name="connection_info">Connection information</string>
+    <string name="server_addr">Server address</string>
+    <string name="server_port">Port</string>
+
+    <string name="save">Save</string>
+
+    <string name="cannot_load_config">Cannot load server configuration.</string>
+    <string name="toggle_hostname">Enter a hostname instead of an IP</string>
+    <string name="toggle_ip_only">Enter an IP only</string>
+
+    <string name="invalid_ip">Possibly invalid IP address</string>
+
+    <string name="cannot_set_config">Cannot set server configuration. Please try again.
+        If the problem persists, try to reinstall the application or wipe its data.</string>
+
+    <string name="cannot_connect_to_server">Server is unreachable. Please check the configuration and make sure you are
+    connected to the internet.</string>
+    <string name="dispatch_not_available">Command dispatch unavailable</string>
+
+</resources>
